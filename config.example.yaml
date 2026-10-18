@@ -1,4 +1,10 @@
-subreddits: [chinatravel, travelchina, chinalife, IWantOut, tressless, SkincareAddiction, QuitVaping, stopdrinking]
-keywords: ["flight to China", "cheap flight", "240 hour visa free", "am I balding", "quit vaping"]
+targets:
+  travel: ["visa", "flight"]
+  solotravel: ["SIM card", "itinerary"]
+  chinatravel: ["visa", "payment app"]
+  techsupport: ["not working"]
+  software: ["app recommendation", "alternative to"]
+  technology: ["app recommendation"]
 limit: 25
 sleep_seconds: 2
+retention_days: 30
