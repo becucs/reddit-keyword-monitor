@@ -1,3 +1,5 @@
+# Complete target list. Each subreddit is searched ONLY for its paired phrases.
+# No health, political or other sensitive-topic subreddits. 10 searches per run.
 targets:
   travel: ["visa", "flight"]
   solotravel: ["SIM card", "itinerary"]
@@ -5,6 +7,5 @@ targets:
   techsupport: ["not working"]
   software: ["app recommendation", "alternative to"]
   technology: ["app recommendation"]
-limit: 25
-sleep_seconds: 2
-retention_days: 30
+limit: 25          # max results per search
+sleep_seconds: 2   # pause between requests
